@@ -1,6 +1,12 @@
 // example code
 
 .controller('MainCtrl', function ($q, $http) {
+
+  if (firebase.auth().currentUser === null) {
+    return $location.url('login')
+  }
+
+
   $q.all([
       $http.get(thing1),
       $http.get(thing2),
