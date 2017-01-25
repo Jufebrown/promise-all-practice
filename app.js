@@ -26,3 +26,12 @@ firebase.auth().onAuthStateChange(function(user) {
     console.log(array) // => [{data:dataforthing1}, {dataforthing2},{dataforthing3}]
   })
 })
+
+
+.controller('secondary', function(){
+  if (firebase.auth().currentUser === null) {
+    return $location.url('login')
+  }
+
+  //whatever you do in the function
+})
