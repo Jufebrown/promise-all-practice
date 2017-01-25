@@ -1,0 +1,17 @@
+{
+  "name": "promise-all-practice",
+  "homepage": "https://github.com/Jufebrown/promise-all-practice",
+  "authors": [
+    "Jufebrown <jufebrown@gmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
